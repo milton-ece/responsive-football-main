@@ -7,7 +7,7 @@ body{
     background-color: rgb(238, 231, 231);
 }
 .banner{
-    background-color: blue;
+    background-color: rgba(23, 23, 153, 0.431);
     display: flex;
     /* width: 680px;
     height: 1440px;
@@ -65,3 +65,10 @@ body{
     color: rgb(105, 101, 101);
     margin: 15px 15px;
 }
+/* footer */
+.logo{
+    text-align: center;
+}
+/* .icon{
+    line-height: 3em;
+} */
