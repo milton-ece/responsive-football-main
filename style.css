@@ -13,6 +13,9 @@ body{
     height: 1440px;
     margin:209px 799px 308px 156px ; */
 }
+.banner:hover{
+    background-color: indigo;
+}
 .tournament-name{
     color: white;
     font-size: 44px;
