@@ -81,3 +81,25 @@ body{
 .fa-youtube{
     font-size: 40px;
 }
+
+/* Media Query */
+/* Mobile Device */
+
+@media only screen and (max width 688px) {
+    .banner{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .banner{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
