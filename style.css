@@ -13,17 +13,21 @@ body{
     height: 1440px;
     margin:209px 799px 308px 156px ; */
 }
+.vivid-color{
+    color: red;
+}
 .banner:hover{
-    background-color: indigo;
+    background-color: rgb(224, 224, 91)
 }
 .tournament-name{
     color: white;
     font-size: 44px;
     /* margin: 210px 150px; */
     /* width: 485px;
-    height: 230px; */
-    padding: 20px 25px;
+    height: 230px;
+    padding: 20px 25px;*/
 }
+
 .tv-broadcast{
     font-size: 15px;
 }
