@@ -1,0 +1,67 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(238, 231, 231);
+}
+.banner{
+    background-color: blue;
+    display: flex;
+    /* width: 680px;
+    height: 1440px;
+    margin:209px 799px 308px 156px ; */
+}
+.tournament-name{
+    color: white;
+    font-size: 44px;
+    /* margin: 210px 150px; */
+    /* width: 485px;
+    height: 230px; */
+    padding: 20px 25px;
+}
+.tv-broadcast{
+    font-size: 15px;
+}
+
+.banner-pic img{
+    width: 556px;
+    height: 438px;
+
+}
+/* players style  */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    margin-left: 40px;
+    margin-right: 70px;
+            }
+
+.player{
+    width: 330px;
+    height: 474px;
+    margin: 15px 15px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(186, 112, 189, 0.822);
+}
+.player img{
+            width: 300px;
+            height: 256px;
+            margin: 15px 15px;
+            
+}
+.player-name{
+    font-size: 28px;
+    margin: 15px 15px;
+}
+.player-details{
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    color: rgb(105, 101, 101);
+    margin: 15px 15px;
+}
