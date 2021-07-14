@@ -69,6 +69,15 @@ body{
 .logo{
     text-align: center;
 }
-/* .icon{
-    line-height: 3em;
-} */
+.fa-dribbble-square{
+    font-size: 40px;
+}
+.fa-instagram-square{
+    font-size: 40px;
+}
+.fa-twitter-square{
+    font-size: 40px;
+}
+.fa-youtube{
+    font-size: 40px;
+}
